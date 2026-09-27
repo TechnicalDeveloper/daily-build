@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**3 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**6 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-09-27 | Python | [Todo List Parser](tasks/2026/2026-09-27-todo-list-parser) |
+| 2026-09-27 | TypeScript | [Tiny Expression Evaluator](tasks/2026/2026-09-27-tiny-expression-evaluator) |
+| 2026-09-27 | Python | [Template Interpolator](tasks/2026/2026-09-27-template-interpolator) |
 | 2026-09-26 | Python | [Deep Merge of Nested Dictionaries](tasks/2026/2026-09-26-deep-merge-nested-data) |
 | 2026-09-26 | Python | [Circular Buffer](tasks/2026/2026-09-26-circular-buffer) |
 | 2026-09-26 | TypeScript | [Async Bounded Queue with Backpressure](tasks/2026/2026-09-26-async-bounded-queue) |
