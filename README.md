@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**12 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**14 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-09-30 | TypeScript | [Priority Queue Implementation](tasks/2026/2026-09-30-priority-queue-implementation) |
+| 2026-09-30 | Python | [Circular Buffer](tasks/2026/2026-09-30-circular-buffer-implementation-2) |
 | 2026-09-29 | Python | [Tiny Expression Evaluator](tasks/2026/2026-09-29-tiny-expression-evaluator-2-2) |
 | 2026-09-29 | Python | [Interval Tree / Range Merge](tasks/2026/2026-09-29-interval-tree-merge) |
 | 2026-09-29 | TypeScript | [Array Chunking Helper](tasks/2026/2026-09-29-array-chunking-helper) |
