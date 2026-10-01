@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**14 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**17 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-01 | TypeScript | [Retry with Exponential Backoff](tasks/2026/2026-10-01-retry-with-backoff) |
+| 2026-10-01 | Python | [Rate Limiter with Sliding Window](tasks/2026/2026-10-01-rate-limiter) |
+| 2026-10-01 | Python | [Chunking / Batching Helper](tasks/2026/2026-10-01-chunking-batch-helper) |
 | 2026-09-30 | TypeScript | [Priority Queue Implementation](tasks/2026/2026-09-30-priority-queue-implementation) |
 | 2026-09-30 | Python | [Circular Buffer](tasks/2026/2026-09-30-circular-buffer-implementation-2) |
 | 2026-09-29 | Python | [Tiny Expression Evaluator](tasks/2026/2026-09-29-tiny-expression-evaluator-2-2) |
