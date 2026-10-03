@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**20 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**23 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-03 | Python | [Tiny Expression Evaluator](tasks/2026/2026-10-03-tiny-expression-evaluator-2-2-2-2) |
+| 2026-10-03 | TypeScript | [Stable Sort by Multiple Keys](tasks/2026/2026-10-03-stable-multi-key-sort) |
+| 2026-10-03 | Python | [Priority Queue](tasks/2026/2026-10-03-priority-queue) |
 | 2026-10-02 | Python | [Tiny Expression Evaluator](tasks/2026/2026-10-02-tiny-expression-evaluator-2-2-2) |
 | 2026-10-02 | TypeScript | [LRU Cache with TTL Expiry](tasks/2026/2026-10-02-lru-cache-with-ttl) |
 | 2026-10-02 | Python | [Duration Formatter](tasks/2026/2026-10-02-duration-formatter) |
