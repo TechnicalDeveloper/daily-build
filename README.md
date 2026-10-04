@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**23 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**26 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-04 | Python | [Rolling Hash Checksum](tasks/2026/2026-10-04-rolling-hash-checksum) |
+| 2026-10-04 | Python | [Pagination Helper](tasks/2026/2026-10-04-pagination-helper) |
+| 2026-10-04 | TypeScript | [Merge Intervals](tasks/2026/2026-10-04-merge-intervals) |
 | 2026-10-03 | Python | [Tiny Expression Evaluator](tasks/2026/2026-10-03-tiny-expression-evaluator-2-2-2-2) |
 | 2026-10-03 | TypeScript | [Stable Sort by Multiple Keys](tasks/2026/2026-10-03-stable-multi-key-sort) |
 | 2026-10-03 | Python | [Priority Queue](tasks/2026/2026-10-03-priority-queue) |
