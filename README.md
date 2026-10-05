@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**26 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**28 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-05 | Python | [LRU Cache with TTL Expiry](tasks/2026/2026-10-05-lru-ttl-cache) |
+| 2026-10-05 | Python | [Circular Buffer Implementation](tasks/2026/2026-10-05-circular-buffer-2) |
 | 2026-10-04 | Python | [Rolling Hash Checksum](tasks/2026/2026-10-04-rolling-hash-checksum) |
 | 2026-10-04 | Python | [Pagination Helper](tasks/2026/2026-10-04-pagination-helper) |
 | 2026-10-04 | TypeScript | [Merge Intervals](tasks/2026/2026-10-04-merge-intervals) |
