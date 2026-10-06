@@ -30,6 +30,7 @@ PLAN = ["python", "typescript", "python"]  # the fixed daily workload
 TYPES = "/usr/lib/node_modules/@types"
 # Arkheon returned a one-off 403 that succeeded on the next call, so treat it as transient.
 RETRY_STATUS = {403, 408, 409, 425, 429, 500, 502, 503, 504}
+BACKOFF = (10, 30, 90)
 
 # Arkheon is reached directly; the host exports a global proxy we must not use here.
 DIRECT = urllib.request.build_opener(urllib.request.ProxyHandler({}))
@@ -85,6 +86,19 @@ Return raw JSON, not wrapped in markdown fences.
 """
 
 
+def log(message: str) -> None:
+    print(f"{dt.datetime.now():%H:%M:%S} {message}", flush=True)
+
+
+def reason(exc: urllib.error.HTTPError) -> str:
+    try:
+        text = exc.read(600).decode("utf-8", "replace")
+    except Exception:
+        return ""
+    text = " ".join(re.sub(r"<[^>]+>", " ", text).split())[:200]
+    return f" {text}" if text else ""
+
+
 def ask(messages: list[dict], key: str, max_tokens: int = 8000) -> str:
     """Call Arkheon, retrying transient failures and truncated replies.
 
@@ -93,6 +107,8 @@ def ask(messages: list[dict], key: str, max_tokens: int = 8000) -> str:
     """
     last = None
     for attempt in range(4):
+        if attempt:
+            time.sleep(BACKOFF[attempt - 1])
         body = json.dumps(
             {"model": MODEL, "max_tokens": max_tokens, "messages": messages}
         ).encode()
@@ -109,12 +125,13 @@ def ask(messages: list[dict], key: str, max_tokens: int = 8000) -> str:
             last = f"finish_reason={choice.get('finish_reason')} content={len(content)}ch"
             max_tokens = min(max_tokens * 2, 32000)
         except urllib.error.HTTPError as exc:
-            last = f"HTTP {exc.code}"
+            last = f"HTTP {exc.code}{reason(exc)}"
             if exc.code not in RETRY_STATUS:
+                log(f"    attempt {attempt + 1}/4: {last} (not retryable)")
                 raise
         except Exception as exc:
             last = f"{type(exc).__name__}: {exc}"
-        time.sleep(3 * (attempt + 1))
+        log(f"    attempt {attempt + 1}/4: {last}")
     raise RuntimeError(f"Arkheon unusable after 4 attempts ({last})")
 
 
@@ -149,15 +166,15 @@ def verify(lang: str, task: dict) -> tuple[bool, str]:
         (d / spec["test"]).write_text(task["tests"])
 
         if lang == "python":
-            ok, log = run([sys.executable, "-m", "unittest", "-v", "test_solution"], d)
+            ok, output = run([sys.executable, "-m", "unittest", "-v", "test_solution"], d)
         else:
-            ok, log = run(
+            ok, output = run(
                 ["tsc", "--module", "commonjs", "--target", "es2022", "--strict",
                  "--esModuleInterop", "--skipLibCheck", "--typeRoots", TYPES, "--types", "node",
                  "--outDir", "out", spec["solution"], spec["test"]], d)
             if ok:
-                ok, log = run(["node", "--test", "out/"], d)
-        return ok, log[-2500:]
+                ok, output = run(["node", "--test", "out/"], d)
+        return ok, output[-2500:]
 
 
 def git(*args: str, author: bool = False) -> None:
@@ -195,18 +212,18 @@ def build_one(lang: str, topic: str, key: str, today: dt.date, taken: set[str]) 
                  PROMPT.format(lang=lang, topic=topic, rules=spec["rules"])}]
     task = parse(ask(messages, key))
 
-    ok, log = verify(lang, task)
+    ok, output = verify(lang, task)
     if not ok:
         # One correction pass: hand the failure back and let it fix its own code.
         messages += [
             {"role": "assistant", "content": json.dumps(task)},
             {"role": "user", "content":
-             f"That failed to build or test:\n\n{log}\n\nReturn corrected JSON, same keys."},
+             f"That failed to build or test:\n\n{output}\n\nReturn corrected JSON, same keys."},
         ]
         task = parse(ask(messages, key))
-        ok, log = verify(lang, task)
+        ok, output = verify(lang, task)
         if not ok:
-            print(f"  [{lang}] discarded - still failing: {log[-300:]}")
+            log(f"  [{lang}] discarded - still failing: {output[-300:]}")
             return None
 
     slug = re.sub(r"[^a-z0-9-]", "", task["slug"].lower())[:40] or "exercise"
@@ -222,7 +239,7 @@ def build_one(lang: str, topic: str, key: str, today: dt.date, taken: set[str]) 
     (d / spec["test"]).write_text(task["tests"].rstrip() + "\n")
     commit(d / spec["test"], f"test {slug}")
 
-    print(f"  [{lang}] {slug} - tests passed")
+    log(f"  [{lang}] {slug} - tests passed")
     return slug
 
 
@@ -242,8 +259,9 @@ def main() -> None:
     for lang, wanted in collections.Counter(PLAN).items():
         todo += [lang] * max(0, wanted - have[lang])
     if not todo:
-        print(f"{today}: all {len(PLAN)} exercises already built")
+        log(f"{today}: all {len(PLAN)} exercises already built")
         return
+    log(f"{today}: need {', '.join(todo)} ({sum(have.values())}/{len(PLAN)} built earlier today)")
 
     taken = {p.name.split("-", 3)[-1] for p in TASKS.glob("*/*") if p.is_dir()}
     topics = random.sample(TOPICS, min(len(todo), len(TOPICS)))
@@ -252,20 +270,22 @@ def main() -> None:
         try:
             slug = build_one(lang, topic, key, today, taken)
         except Exception as exc:
-            print(f"  [{lang}] error: {type(exc).__name__}: {exc}")
+            log(f"  [{lang}] error: {type(exc).__name__}: {exc}")
             continue
         if slug:
             taken.add(slug)
             built.append(slug)
 
+    total = sum(have.values()) + len(built)
     if not built:
-        print(f"{today}: nothing built, nothing committed")
-        sys.exit(1)
+        log(f"{today}: nothing built this run - {total}/{len(PLAN)} for the day")
+        sys.exit(1 if total == 0 else 2)
 
     reindex()
     commit(ROOT / "README.md", f"index: {today}")
-    print(f"{today}: built {len(built)}/{len(todo)} - {len(built) * 3 + 1} commits")
-    if len(built) < len(todo):
+    log(f"{today}: built {len(built)}/{len(todo)} - {len(built) * 3 + 1} commits"
+        f" - {total}/{len(PLAN)} for the day")
+    if total < len(PLAN):
         sys.exit(2)  # partial day: committed what worked, still worth a warning
 
 
