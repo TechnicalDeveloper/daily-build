@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**29 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**32 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-06 | Python | [Simple Text Config Parser](tasks/2026/2026-10-06-text-config-parser) |
+| 2026-10-06 | Python | [Rolling Hash](tasks/2026/2026-10-06-rolling-hash-implementation) |
+| 2026-10-06 | TypeScript | [Memoization Utility Function](tasks/2026/2026-10-06-memoize-utility) |
 | 2026-10-05 | TypeScript | [Retry Policy with Backoff](tasks/2026/2026-10-05-retry-policy-backoff) |
 | 2026-10-05 | Python | [LRU Cache with TTL Expiry](tasks/2026/2026-10-05-lru-ttl-cache) |
 | 2026-10-05 | Python | [Circular Buffer Implementation](tasks/2026/2026-10-05-circular-buffer-2) |
