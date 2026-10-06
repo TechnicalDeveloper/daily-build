@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**32 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**35 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-07 | TypeScript | [Rolling Hash Class](tasks/2026/2026-10-07-rolling-hash-class) |
+| 2026-10-07 | Python | [Pagination Helper](tasks/2026/2026-10-07-pagination-helper-2) |
+| 2026-10-07 | Python | [Glob Path Matcher](tasks/2026/2026-10-07-glob-path-matcher) |
 | 2026-10-06 | Python | [Simple Text Config Parser](tasks/2026/2026-10-06-text-config-parser) |
 | 2026-10-06 | Python | [Rolling Hash](tasks/2026/2026-10-06-rolling-hash-implementation) |
 | 2026-10-06 | TypeScript | [Memoization Utility Function](tasks/2026/2026-10-06-memoize-utility) |
