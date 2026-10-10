@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**39 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**41 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-10 | Python | [Priority Queue](tasks/2026/2026-10-10-priority-queue-2) |
+| 2026-10-10 | Python | [Diff Edit Script](tasks/2026/2026-10-10-diff-edit-script) |
 | 2026-10-09 | Python | [Simple State Machine](tasks/2026/2026-10-09-simple-state-machine) |
 | 2026-10-09 | TypeScript | [Array Chunk Helper](tasks/2026/2026-10-09-array-chunk-helper) |
 | 2026-10-08 | Python | [Priority Task Scheduler](tasks/2026/2026-10-08-priority-task-scheduler) |
