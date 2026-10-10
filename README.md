@@ -3,10 +3,11 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**41 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**42 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-10 | TypeScript | [Template Interpolator](tasks/2026/2026-10-10-template-interpolator-2) |
 | 2026-10-10 | Python | [Priority Queue](tasks/2026/2026-10-10-priority-queue-2) |
 | 2026-10-10 | Python | [Diff Edit Script](tasks/2026/2026-10-10-diff-edit-script) |
 | 2026-10-09 | Python | [Simple State Machine](tasks/2026/2026-10-09-simple-state-machine) |
