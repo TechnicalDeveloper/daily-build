@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**42 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**44 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-11 | TypeScript | [Rate Limiter](tasks/2026/2026-10-11-rate-limiter-implementation) |
+| 2026-10-11 | Python | [Chunked Iterable Batching](tasks/2026/2026-10-11-chunking-batching-helper) |
 | 2026-10-10 | TypeScript | [Template Interpolator](tasks/2026/2026-10-10-template-interpolator-2) |
 | 2026-10-10 | Python | [Priority Queue](tasks/2026/2026-10-10-priority-queue-2) |
 | 2026-10-10 | Python | [Diff Edit Script](tasks/2026/2026-10-10-diff-edit-script) |
