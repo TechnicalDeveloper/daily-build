@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**47 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**49 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-13 | Python | [Priority Queue](tasks/2026/2026-10-13-priority-queue-class) |
+| 2026-10-13 | Python | [LRU Cache Decorator](tasks/2026/2026-10-13-lru-cache-utility) |
 | 2026-10-12 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-10-12-stable-sort-multiple-keys) |
 | 2026-10-12 | Python | [Duration Format Helper](tasks/2026/2026-10-12-duration-format-helper) |
 | 2026-10-12 | TypeScript | [Checklist Parser](tasks/2026/2026-10-12-checklist-parser) |
