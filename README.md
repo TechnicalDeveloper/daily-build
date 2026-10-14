@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**49 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**52 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-14 | TypeScript | [Merge Sorted Arrays](tasks/2026/2026-10-14-merge-sorted-arrays) |
+| 2026-10-14 | Python | [LRU Cache with TTL Expiry](tasks/2026/2026-10-14-lru-cache-ttl) |
+| 2026-10-14 | Python | [Debounce Function](tasks/2026/2026-10-14-debounce-mechanism) |
 | 2026-10-13 | Python | [Priority Queue](tasks/2026/2026-10-13-priority-queue-class) |
 | 2026-10-13 | Python | [LRU Cache Decorator](tasks/2026/2026-10-13-lru-cache-utility) |
 | 2026-10-12 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-10-12-stable-sort-multiple-keys) |
