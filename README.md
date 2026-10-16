@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**55 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**57 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-16 | Python | [Sliding Window Rate Limiter](tasks/2026/2026-10-16-rate-limiter-2) |
+| 2026-10-16 | Python | [Priority Queue Scheduler](tasks/2026/2026-10-16-priority-queue-scheduler-2) |
 | 2026-10-15 | TypeScript | [Priority Queue / Scheduler](tasks/2026/2026-10-15-priority-queue-scheduler) |
 | 2026-10-15 | Python | [Deep Merge of Nested Data](tasks/2026/2026-10-15-deep-merge-nested-data-2) |
 | 2026-10-15 | Python | [Backpressure Queue](tasks/2026/2026-10-15-backpressure-queue) |
