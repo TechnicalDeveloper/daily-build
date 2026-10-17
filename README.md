@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**57 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**60 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-17 | Python | [Rate Limiter Decorator](tasks/2026/2026-10-17-rate-limiter-decorator) |
+| 2026-10-17 | Python | [Mini Expression Evaluator](tasks/2026/2026-10-17-mini-expression-evaluator) |
+| 2026-10-17 | TypeScript | [Circular Buffer](tasks/2026/2026-10-17-circular-buffer-2-2) |
 | 2026-10-16 | Python | [Sliding Window Rate Limiter](tasks/2026/2026-10-16-rate-limiter-2) |
 | 2026-10-16 | Python | [Priority Queue Scheduler](tasks/2026/2026-10-16-priority-queue-scheduler-2) |
 | 2026-10-15 | TypeScript | [Priority Queue / Scheduler](tasks/2026/2026-10-15-priority-queue-scheduler) |
