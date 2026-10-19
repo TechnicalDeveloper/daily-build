@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**63 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**66 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-19 | Python | [Rolling Hash Checksum](tasks/2026/2026-10-19-rolling-hash-checksum-2) |
+| 2026-10-19 | Python | [Retry Policy with Exponential Backoff](tasks/2026/2026-10-19-retry-policy-backoff-2) |
+| 2026-10-19 | TypeScript | [Path Glob Matcher](tasks/2026/2026-10-19-path-glob-matcher) |
 | 2026-10-18 | Python | [Turnstile State Machine](tasks/2026/2026-10-18-turnstile-state-machine) |
 | 2026-10-18 | TypeScript | [Tiny Expression Evaluator](tasks/2026/2026-10-18-expression-evaluator) |
 | 2026-10-18 | Python | [Days in Month Helper](tasks/2026/2026-10-18-days-in-month-helper) |
