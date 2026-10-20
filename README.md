@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**66 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**69 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-20 | Python | [Stable Multi-Key Sorting](tasks/2026/2026-10-20-stable-multi-key-sort-2) |
+| 2026-10-20 | TypeScript | [Rate Limiter](tasks/2026/2026-10-20-rate-limiter-function) |
+| 2026-10-20 | Python | [Circular Buffer](tasks/2026/2026-10-20-circular-buffer-2-2-2) |
 | 2026-10-19 | Python | [Rolling Hash Checksum](tasks/2026/2026-10-19-rolling-hash-checksum-2) |
 | 2026-10-19 | Python | [Retry Policy with Exponential Backoff](tasks/2026/2026-10-19-retry-policy-backoff-2) |
 | 2026-10-19 | TypeScript | [Path Glob Matcher](tasks/2026/2026-10-19-path-glob-matcher) |
