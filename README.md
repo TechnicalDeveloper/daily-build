@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**69 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**72 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-21 | Python | [Topological Sort](tasks/2026/2026-10-21-topological-sort) |
+| 2026-10-21 | Python | [Dice Coefficient String Similarity](tasks/2026/2026-10-21-dice-coefficient-similarity) |
+| 2026-10-21 | TypeScript | [Array Chunking Helper](tasks/2026/2026-10-21-array-chunking-helper-2) |
 | 2026-10-20 | Python | [Stable Multi-Key Sorting](tasks/2026/2026-10-20-stable-multi-key-sort-2) |
 | 2026-10-20 | TypeScript | [Rate Limiter](tasks/2026/2026-10-20-rate-limiter-function) |
 | 2026-10-20 | Python | [Circular Buffer](tasks/2026/2026-10-20-circular-buffer-2-2-2) |
