@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**75 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**77 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-23 | Python | [Validation Combinators Library](tasks/2026/2026-10-23-validation-combinators-2) |
+| 2026-10-23 | TypeScript | [Backpressure-Aware Async Queue](tasks/2026/2026-10-23-backpressure-aware-queue-2) |
 | 2026-10-22 | Python | [Validation Combinators](tasks/2026/2026-10-22-validation-combinators) |
 | 2026-10-22 | Python | [Retry Policy with Backoff](tasks/2026/2026-10-22-retry-backoff-policy) |
 | 2026-10-22 | TypeScript | [Tiny Expression Evaluator](tasks/2026/2026-10-22-expression-evaluator-2) |
