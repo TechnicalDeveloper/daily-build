@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**80 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**82 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-25 | Python | [Memoization Cache Decorator](tasks/2026/2026-10-25-memoization-cache-decorator) |
+| 2026-10-25 | Python | [Key-Value Text Parser](tasks/2026/2026-10-25-key-value-parser) |
 | 2026-10-24 | TypeScript | [Retry with Exponential Backoff](tasks/2026/2026-10-24-retry-with-backoff-2) |
 | 2026-10-24 | Python | [LCS-Based Diff Routine](tasks/2026/2026-10-24-lcs-diff-routine) |
 | 2026-10-24 | Python | [Duration Format Helper](tasks/2026/2026-10-24-duration-format-helper-2) |
