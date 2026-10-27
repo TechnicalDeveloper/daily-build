@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**86 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**89 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-27 | TypeScript | [Text Parser for Key-Value Format](tasks/2026/2026-10-27-text-parser-key-value) |
+| 2026-10-27 | Python | [Simple State Machine: Door](tasks/2026/2026-10-27-simple-state-machine-2) |
+| 2026-10-27 | Python | [Retry Policy with Exponential Backoff](tasks/2026/2026-10-27-retry-policy-backoff-2-2) |
 | 2026-10-26 | Python | [Validation Combinators](tasks/2026/2026-10-26-validation-combinators-2-2-2) |
 | 2026-10-26 | Python | [String Similarity with N-gram Jaccard](tasks/2026/2026-10-26-string-similarity-metric) |
 | 2026-10-26 | TypeScript | [Memoization Utility Function](tasks/2026/2026-10-26-memoization-utility) |
