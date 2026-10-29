@@ -173,7 +173,7 @@ def verify(lang: str, task: dict) -> tuple[bool, str]:
                  "--esModuleInterop", "--skipLibCheck", "--typeRoots", TYPES, "--types", "node",
                  "--outDir", "out", spec["solution"], spec["test"]], d)
             if ok:
-                ok, output = run(["node", "--test", "out/"], d)
+                ok, output = run(["node", "--test", "out/solution.test.js"], d)
         return ok, output[-2500:]
 
 
