@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**91 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**94 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-29 | Python | [Throttle Function Calls](tasks/2026/2026-10-29-throttle-function-calls) |
+| 2026-10-29 | TypeScript | [Template Interpolator](tasks/2026/2026-10-29-template-interpolator-2-2) |
+| 2026-10-29 | Python | [Retry with Exponential Backoff](tasks/2026/2026-10-29-retry-with-backoff-2-2) |
 | 2026-10-28 | Python | [Topological Sort using Kahn's Algorithm](tasks/2026/2026-10-28-topological-sort-kahn) |
 | 2026-10-28 | Python | [Backpressure-Aware Queue](tasks/2026/2026-10-28-backpressure-aware-queue-2-2) |
 | 2026-10-27 | TypeScript | [Text Parser for Key-Value Format](tasks/2026/2026-10-27-text-parser-key-value) |
