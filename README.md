@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**94 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**97 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-10-30 | Python | [Sliding Window Rate Limiter](tasks/2026/2026-10-30-sliding-window-rate-limiter) |
+| 2026-10-30 | Python | [Glob Path Matcher](tasks/2026/2026-10-30-glob-path-matcher-2) |
+| 2026-10-30 | TypeScript | [Backpressure-Aware Async Queue](tasks/2026/2026-10-30-backpressure-aware-queue-2-2-2) |
 | 2026-10-29 | Python | [Throttle Function Calls](tasks/2026/2026-10-29-throttle-function-calls) |
 | 2026-10-29 | TypeScript | [Template Interpolator](tasks/2026/2026-10-29-template-interpolator-2-2) |
 | 2026-10-29 | Python | [Retry with Exponential Backoff](tasks/2026/2026-10-29-retry-with-backoff-2-2) |
