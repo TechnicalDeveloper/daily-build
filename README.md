@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**100 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**103 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-01 | Python | [Memoization / Caching Utility](tasks/2026/2026-11-01-memoization-caching-utility) |
+| 2026-11-01 | Python | [Interval Tree and Range Merge](tasks/2026/2026-11-01-interval-tree-range-merge) |
+| 2026-11-01 | TypeScript | [Circular Buffer](tasks/2026/2026-11-01-circular-buffer-2-2-2-2) |
 | 2026-10-31 | Python | [Tiny Expression Evaluator](tasks/2026/2026-10-31-tiny-expression-evaluator-2-2-2-2-2) |
 | 2026-10-31 | Python | [Path Glob Matcher](tasks/2026/2026-10-31-path-glob-matcher-2) |
 | 2026-10-31 | TypeScript | [Pagination Helper](tasks/2026/2026-10-31-pagination-helper-2-2) |
