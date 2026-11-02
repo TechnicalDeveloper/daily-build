@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**103 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**106 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-02 | TypeScript | [Template Interpolator](tasks/2026/2026-11-02-template-interpolator-2-2-2) |
+| 2026-11-02 | Python | [LRU Cache with TTL Expiry](tasks/2026/2026-11-02-lru-cache-ttl-2) |
+| 2026-11-02 | Python | [Chunking Helper Function](tasks/2026/2026-11-02-chunking-helper-function) |
 | 2026-11-01 | Python | [Memoization / Caching Utility](tasks/2026/2026-11-01-memoization-caching-utility) |
 | 2026-11-01 | Python | [Interval Tree and Range Merge](tasks/2026/2026-11-01-interval-tree-range-merge) |
 | 2026-11-01 | TypeScript | [Circular Buffer](tasks/2026/2026-11-01-circular-buffer-2-2-2-2) |
