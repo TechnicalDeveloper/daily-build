@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**106 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**109 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-03 | TypeScript | [Tiny Expression Evaluator](tasks/2026/2026-11-03-tiny-expression-evaluator-2-2-2-2-2-2) |
+| 2026-11-03 | Python | [Rolling Window Hashes](tasks/2026/2026-11-03-rolling-window-hashes) |
+| 2026-11-03 | Python | [Debounce Decorator](tasks/2026/2026-11-03-debounce-decorator) |
 | 2026-11-02 | TypeScript | [Template Interpolator](tasks/2026/2026-11-02-template-interpolator-2-2-2) |
 | 2026-11-02 | Python | [LRU Cache with TTL Expiry](tasks/2026/2026-11-02-lru-cache-ttl-2) |
 | 2026-11-02 | Python | [Chunking Helper Function](tasks/2026/2026-11-02-chunking-helper-function) |
