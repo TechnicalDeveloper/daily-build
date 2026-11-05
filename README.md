@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**112 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**114 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-05 | Python | [String Dice Coefficient](tasks/2026/2026-11-05-string-dice-coefficient) |
+| 2026-11-05 | TypeScript | [Array Chunking Helper](tasks/2026/2026-11-05-array-chunking-helper-2-2) |
 | 2026-11-04 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-04-stable-multi-key-sort-2-2) |
 | 2026-11-04 | Python | [Merge Intervals](tasks/2026/2026-11-04-merge-intervals-2) |
 | 2026-11-04 | TypeScript | [Backpressure-Aware Queue](tasks/2026/2026-11-04-backpressure-queue-2) |
