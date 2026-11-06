@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**115 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**118 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-06 | Python | [Priority Queue Scheduler](tasks/2026/2026-11-06-priority-queue-scheduler-2-2) |
+| 2026-11-06 | Python | [Deep Merge of Nested Data Structures](tasks/2026/2026-11-06-deep-merge-nested-data-2-2) |
+| 2026-11-06 | TypeScript | [Implement a Debounce Function](tasks/2026/2026-11-06-debounce-function) |
 | 2026-11-05 | Python | [String Dice Coefficient](tasks/2026/2026-11-05-string-dice-coefficient) |
 | 2026-11-05 | Python | [Simple State Machine](tasks/2026/2026-11-05-simple-state-machine-2-2) |
 | 2026-11-05 | TypeScript | [Array Chunking Helper](tasks/2026/2026-11-05-array-chunking-helper-2-2) |
