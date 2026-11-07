@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**118 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**120 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-07 | Python | [Topological Sort using Kahn's Algorithm](tasks/2026/2026-11-07-topological-sort-kahn-2) |
+| 2026-11-07 | Python | [Backpressure-Aware Queue](tasks/2026/2026-11-07-backpressure-aware-queue-2-2-2-2) |
 | 2026-11-06 | Python | [Priority Queue Scheduler](tasks/2026/2026-11-06-priority-queue-scheduler-2-2) |
 | 2026-11-06 | Python | [Deep Merge of Nested Data Structures](tasks/2026/2026-11-06-deep-merge-nested-data-2-2) |
 | 2026-11-06 | TypeScript | [Implement a Debounce Function](tasks/2026/2026-11-06-debounce-function) |
