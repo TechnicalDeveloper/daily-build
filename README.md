@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**121 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**124 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-08 | Python | [Rolling Checksum Verifier](tasks/2026/2026-11-08-rolling-checksum-verifier) |
+| 2026-11-08 | TypeScript | [Retry with Exponential Backoff](tasks/2026/2026-11-08-retry-with-backoff-policy) |
+| 2026-11-08 | Python | [Memoization Cache Decorator](tasks/2026/2026-11-08-memoization-cache-decorator-2) |
 | 2026-11-07 | Python | [Topological Sort using Kahn's Algorithm](tasks/2026/2026-11-07-topological-sort-kahn-2) |
 | 2026-11-07 | TypeScript | [Deep Merge Nested Data](tasks/2026/2026-11-07-deep-merge-nested-data-2-2-2) |
 | 2026-11-07 | Python | [Backpressure-Aware Queue](tasks/2026/2026-11-07-backpressure-aware-queue-2-2-2-2) |
