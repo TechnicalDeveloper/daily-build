@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**124 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**127 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-09 | Python | [Topological Sort of a Directed Acyclic Graph](tasks/2026/2026-11-09-topological-sort-graph) |
+| 2026-11-09 | TypeScript | [Tiny Expression Evaluator](tasks/2026/2026-11-09-tiny-expression-evaluator-2-2-2-2-2-2-2) |
+| 2026-11-09 | Python | [Memoization Decorator Utility](tasks/2026/2026-11-09-memoization-decorator-utility) |
 | 2026-11-08 | Python | [Rolling Checksum Verifier](tasks/2026/2026-11-08-rolling-checksum-verifier) |
 | 2026-11-08 | TypeScript | [Retry with Exponential Backoff](tasks/2026/2026-11-08-retry-with-backoff-policy) |
 | 2026-11-08 | Python | [Memoization Cache Decorator](tasks/2026/2026-11-08-memoization-cache-decorator-2) |
