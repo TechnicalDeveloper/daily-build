@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**127 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**129 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-11 | Python | [Validation Combinators](tasks/2026/2026-11-11-validation-combinators-2-2-2-2) |
+| 2026-11-11 | Python | [Pagination Helper](tasks/2026/2026-11-11-pagination-helper-2-2-2) |
 | 2026-11-09 | Python | [Topological Sort of a Directed Acyclic Graph](tasks/2026/2026-11-09-topological-sort-graph) |
 | 2026-11-09 | TypeScript | [Tiny Expression Evaluator](tasks/2026/2026-11-09-tiny-expression-evaluator-2-2-2-2-2-2-2) |
 | 2026-11-09 | Python | [Memoization Decorator Utility](tasks/2026/2026-11-09-memoization-decorator-utility) |
