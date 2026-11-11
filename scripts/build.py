@@ -24,7 +24,10 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TASKS = ROOT / "tasks"
 API = "https://arkheonchat.com/v1/chat/completions"
-MODEL = "deepseek/deepseek-v4-flash"
+# Tried in order. Arkheon dropped the plain "deepseek/deepseek-v4-flash" name on 10.11.2026 (HTTP 404
+# model_not_found) and two days went unbuilt, so a missing model now falls through to the next one.
+MODELS = ["deepseek/deepseek-v4-flash-0731", "deepseek/deepseek-v4-flash", "deepseek/deepseek-v3.2"]
+_model = 0
 AUTHOR = ("Pavel P.", "95400630+TechnicalDeveloper@users.noreply.github.com")
 PLAN = ["python", "typescript", "python"]  # the fixed daily workload
 TYPES = "/usr/lib/node_modules/@types"
@@ -105,12 +108,13 @@ def ask(messages: list[dict], key: str, max_tokens: int = 8000) -> str:
     The model reasons before answering and those tokens come out of max_tokens,
     so a budget sized only for the answer silently truncates the JSON.
     """
+    global _model
     last = None
     for attempt in range(4):
         if attempt:
             time.sleep(BACKOFF[attempt - 1])
         body = json.dumps(
-            {"model": MODEL, "max_tokens": max_tokens, "messages": messages}
+            {"model": MODELS[_model], "max_tokens": max_tokens, "messages": messages}
         ).encode()
         req = urllib.request.Request(
             API, data=body,
@@ -126,6 +130,10 @@ def ask(messages: list[dict], key: str, max_tokens: int = 8000) -> str:
             max_tokens = min(max_tokens * 2, 32000)
         except urllib.error.HTTPError as exc:
             last = f"HTTP {exc.code}{reason(exc)}"
+            if exc.code == 404 and "model" in last.lower() and _model + 1 < len(MODELS):
+                log(f"    {MODELS[_model]} is gone ({last.strip()[:80]}), switching to {MODELS[_model + 1]}")
+                _model += 1
+                continue
             if exc.code not in RETRY_STATUS:
                 log(f"    attempt {attempt + 1}/4: {last} (not retryable)")
                 raise
