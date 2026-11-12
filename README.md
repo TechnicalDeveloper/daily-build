@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**129 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**132 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-12 | Python | [Template Interpolator](tasks/2026/2026-11-12-template-interpolator-2-2-2-2) |
+| 2026-11-12 | Python | [Parse Key-Value Records](tasks/2026/2026-11-12-simple-record-parser) |
+| 2026-11-12 | TypeScript | [Rate Limiter](tasks/2026/2026-11-12-rate-limiter-2-2) |
 | 2026-11-11 | Python | [Validation Combinators](tasks/2026/2026-11-11-validation-combinators-2-2-2-2) |
 | 2026-11-11 | Python | [Pagination Helper](tasks/2026/2026-11-11-pagination-helper-2-2-2) |
 | 2026-11-09 | Python | [Topological Sort of a Directed Acyclic Graph](tasks/2026/2026-11-09-topological-sort-graph) |
