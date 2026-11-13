@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**132 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**135 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-13 | Python | [Turnstile State Machine](tasks/2026/2026-11-13-turnstile-state-machine-2) |
+| 2026-11-13 | Python | [Line-based Diff and Merge](tasks/2026/2026-11-13-diff-merge-lines) |
+| 2026-11-13 | TypeScript | [Circular Buffer](tasks/2026/2026-11-13-circular-buffer-2-2-2-2-2) |
 | 2026-11-12 | Python | [Template Interpolator](tasks/2026/2026-11-12-template-interpolator-2-2-2-2) |
 | 2026-11-12 | Python | [Parse Key-Value Records](tasks/2026/2026-11-12-simple-record-parser) |
 | 2026-11-12 | TypeScript | [Rate Limiter](tasks/2026/2026-11-12-rate-limiter-2-2) |
