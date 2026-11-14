@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**135 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**138 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-14 | Python | [Parse INI-like configuration text](tasks/2026/2026-11-14-ini-parser) |
+| 2026-11-14 | TypeScript | [Dice Coefficient String Similarity](tasks/2026/2026-11-14-dice-string-similarity) |
+| 2026-11-14 | Python | [Backpressure-aware Queue](tasks/2026/2026-11-14-backpressure-aware-queue-2-2-2-2-2) |
 | 2026-11-13 | Python | [Turnstile State Machine](tasks/2026/2026-11-13-turnstile-state-machine-2) |
 | 2026-11-13 | Python | [Line-based Diff and Merge](tasks/2026/2026-11-13-diff-merge-lines) |
 | 2026-11-13 | TypeScript | [Circular Buffer](tasks/2026/2026-11-13-circular-buffer-2-2-2-2-2) |
