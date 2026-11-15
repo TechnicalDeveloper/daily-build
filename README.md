@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**138 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**141 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-15 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-15-stable-multi-key-sort-2-2-2) |
+| 2026-11-15 | TypeScript | [Rolling Hash Computation](tasks/2026/2026-11-15-rolling-hash-computation) |
+| 2026-11-15 | Python | [Chunking Helper](tasks/2026/2026-11-15-chunking-batching-helper-2) |
 | 2026-11-14 | Python | [Parse INI-like configuration text](tasks/2026/2026-11-14-ini-parser) |
 | 2026-11-14 | TypeScript | [Dice Coefficient String Similarity](tasks/2026/2026-11-14-dice-string-similarity) |
 | 2026-11-14 | Python | [Backpressure-aware Queue](tasks/2026/2026-11-14-backpressure-aware-queue-2-2-2-2-2) |
