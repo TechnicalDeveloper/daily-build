@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**141 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**144 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-16 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-16-stable-sort-multiple-keys-2) |
+| 2026-11-16 | Python | [Rolling Hash Implementation](tasks/2026/2026-11-16-rolling-hash-implementation-2) |
+| 2026-11-16 | TypeScript | [Date and Duration Helper](tasks/2026/2026-11-16-date-duration-helper) |
 | 2026-11-15 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-15-stable-multi-key-sort-2-2-2) |
 | 2026-11-15 | TypeScript | [Rolling Hash Computation](tasks/2026/2026-11-15-rolling-hash-computation) |
 | 2026-11-15 | Python | [Chunking Helper](tasks/2026/2026-11-15-chunking-batching-helper-2) |
