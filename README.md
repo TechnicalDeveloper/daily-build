@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**144 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**147 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-17 | Python | [Sliding Window Rate Limiter](tasks/2026/2026-11-17-sliding-window-rate-limiter-2) |
+| 2026-11-17 | Python | [Pagination Helper Class](tasks/2026/2026-11-17-pagination-helper-2-2-2-2) |
+| 2026-11-17 | TypeScript | [Chunk Array into Batches](tasks/2026/2026-11-17-chunk-array-batches) |
 | 2026-11-16 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-16-stable-sort-multiple-keys-2) |
 | 2026-11-16 | Python | [Rolling Hash Implementation](tasks/2026/2026-11-16-rolling-hash-implementation-2) |
 | 2026-11-16 | TypeScript | [Date and Duration Helper](tasks/2026/2026-11-16-date-duration-helper) |
