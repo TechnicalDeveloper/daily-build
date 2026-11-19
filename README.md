@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**150 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**153 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-19 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-19-stable-sort-multiple-keys-2-2) |
+| 2026-11-19 | Python | [Simple State Machine](tasks/2026/2026-11-19-simple-state-machine-2-2-2) |
+| 2026-11-19 | TypeScript | [Pagination Helper](tasks/2026/2026-11-19-pagination-helper-2-2-2-2-2) |
 | 2026-11-18 | Python | [Merge Overlapping Intervals](tasks/2026/2026-11-18-merge-intervals-2-2) |
 | 2026-11-18 | Python | [Wildcard Path Matcher](tasks/2026/2026-11-18-glob-matcher) |
 | 2026-11-18 | TypeScript | [Line Diff Routine](tasks/2026/2026-11-18-diff-line-routine) |
