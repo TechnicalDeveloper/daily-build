@@ -3,10 +3,12 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**153 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**155 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-20 | Python | [Validation Combinator Kit](tasks/2026/2026-11-20-validation-combinator-kit) |
+| 2026-11-20 | TypeScript | [Implement a Debounce Function](tasks/2026/2026-11-20-debounce-function-2) |
 | 2026-11-19 | Python | [Stable Sort by Multiple Keys](tasks/2026/2026-11-19-stable-sort-multiple-keys-2-2) |
 | 2026-11-19 | Python | [Simple State Machine](tasks/2026/2026-11-19-simple-state-machine-2-2-2) |
 | 2026-11-19 | TypeScript | [Pagination Helper](tasks/2026/2026-11-19-pagination-helper-2-2-2-2-2) |
