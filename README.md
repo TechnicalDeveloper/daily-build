@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**156 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**159 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-21 | TypeScript | [Validation Combinators](tasks/2026/2026-11-21-validation-combinators-2-2-2-2-2) |
+| 2026-11-21 | Python | [Merge Overlapping Intervals](tasks/2026/2026-11-21-merge-overlapping-intervals) |
+| 2026-11-21 | Python | [Human-readable duration](tasks/2026/2026-11-21-human-duration-formatter) |
 | 2026-11-20 | Python | [Validation Combinator Kit](tasks/2026/2026-11-20-validation-combinator-kit) |
 | 2026-11-20 | Python | [LRU Cache with TTL Expiry](tasks/2026/2026-11-20-lru-ttl-cache-2) |
 | 2026-11-20 | TypeScript | [Implement a Debounce Function](tasks/2026/2026-11-20-debounce-function-2) |
