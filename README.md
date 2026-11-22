@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**159 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**162 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-22 | Python | [Set of Validation Combinators](tasks/2026/2026-11-22-validation-combinators-2-2-2-2-2-2) |
+| 2026-11-22 | TypeScript | [Format Duration Compact Helper](tasks/2026/2026-11-22-format-duration-helper) |
+| 2026-11-22 | Python | [Circular Buffer](tasks/2026/2026-11-22-circular-buffer-2-2-2-2-2-2) |
 | 2026-11-21 | TypeScript | [Validation Combinators](tasks/2026/2026-11-21-validation-combinators-2-2-2-2-2) |
 | 2026-11-21 | Python | [Merge Overlapping Intervals](tasks/2026/2026-11-21-merge-overlapping-intervals) |
 | 2026-11-21 | Python | [Human-readable duration](tasks/2026/2026-11-21-human-duration-formatter) |
