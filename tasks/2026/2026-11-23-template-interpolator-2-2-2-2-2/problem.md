@@ -1,0 +1,3 @@
+# Template Interpolator
+
+Build a simple template interpolator. Write a function `interpolate(template, mapping)` that takes a string `template` and a dictionary `mapping`, and returns a new string where every placeholder of the form `{key}` is replaced with the value from `mapping` converted to string. If a key is not found in `mapping`, raise `KeyError`. If a placeholder is empty (i.e. `{}`) or the template contains an unmatched opening brace (no closing `}`), raise `ValueError`. To include a literal `{` or `}`, double it (`{{` for `{`, `}}` for `}`). Edge cases: empty template returns empty string, multiple occurrences of the same key, and non-string values must be converted to strings.
