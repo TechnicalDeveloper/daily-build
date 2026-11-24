@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**165 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**168 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-24 | Python | [Topological Sort](tasks/2026/2026-11-24-topological-sort-2) |
+| 2026-11-24 | TypeScript | [Debounce Function](tasks/2026/2026-11-24-debounce-with-cancel-and-flush) |
+| 2026-11-24 | Python | [Circular Buffer with Overwrite](tasks/2026/2026-11-24-circular-buffer-2-2-2-2-2-2-2) |
 | 2026-11-23 | Python | [Template Interpolator](tasks/2026/2026-11-23-template-interpolator-2-2-2-2-2) |
 | 2026-11-23 | Python | [Retry Policy with Backoff](tasks/2026/2026-11-23-retry-policy-backoff-2-2-2) |
 | 2026-11-23 | TypeScript | [Backpressure-Aware Async Queue](tasks/2026/2026-11-23-backpressure-aware-queue-2-2-2-2-2-2) |
