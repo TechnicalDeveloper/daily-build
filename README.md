@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**168 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**171 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-25 | Python | [Template Interpolator](tasks/2026/2026-11-25-template-interpolator-2-2-2-2-2-2) |
+| 2026-11-25 | TypeScript | [Simple State Machine](tasks/2026/2026-11-25-simple-state-machine-2-2-2-2) |
+| 2026-11-25 | Python | [Levenshtein Similarity Score](tasks/2026/2026-11-25-levenshtein-similarity-score) |
 | 2026-11-24 | Python | [Topological Sort](tasks/2026/2026-11-24-topological-sort-2) |
 | 2026-11-24 | TypeScript | [Debounce Function](tasks/2026/2026-11-24-debounce-with-cancel-and-flush) |
 | 2026-11-24 | Python | [Circular Buffer with Overwrite](tasks/2026/2026-11-24-circular-buffer-2-2-2-2-2-2-2) |
