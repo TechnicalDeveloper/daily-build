@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**171 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**174 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-26 | Python | [Validation Combinators](tasks/2026/2026-11-26-validation-combinators-2-2-2-2-2-2-2) |
+| 2026-11-26 | Python | [Diff and Patch for Sequences](tasks/2026/2026-11-26-sequence-diff-patch) |
+| 2026-11-26 | TypeScript | [Memoize with TTL and LRU](tasks/2026/2026-11-26-memoize-ttl-lru) |
 | 2026-11-25 | Python | [Template Interpolator](tasks/2026/2026-11-25-template-interpolator-2-2-2-2-2-2) |
 | 2026-11-25 | TypeScript | [Simple State Machine](tasks/2026/2026-11-25-simple-state-machine-2-2-2-2) |
 | 2026-11-25 | Python | [Levenshtein Similarity Score](tasks/2026/2026-11-25-levenshtein-similarity-score) |
