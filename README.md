@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**174 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**177 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-27 | Python | [Tiny Expression Evaluator](tasks/2026/2026-11-27-tiny-expression-evaluator-2-2-2-2-2-2-2-2) |
+| 2026-11-27 | Python | [Retry Policy with Exponential Backoff](tasks/2026/2026-11-27-retry-policy-backoff-2-2-2-2) |
+| 2026-11-27 | TypeScript | [Pagination Helper](tasks/2026/2026-11-27-pagination-helper-2-2-2-2-2-2) |
 | 2026-11-26 | Python | [Validation Combinators](tasks/2026/2026-11-26-validation-combinators-2-2-2-2-2-2-2) |
 | 2026-11-26 | Python | [Diff and Patch for Sequences](tasks/2026/2026-11-26-sequence-diff-patch) |
 | 2026-11-26 | TypeScript | [Memoize with TTL and LRU](tasks/2026/2026-11-26-memoize-ttl-lru) |
