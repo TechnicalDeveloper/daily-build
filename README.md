@@ -3,10 +3,13 @@
 Self-contained programming exercises: the problem, an implementation, and tests.
 Generated nightly and committed only when the tests actually pass.
 
-**177 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
+**180 exercises.** Python (stdlib) and TypeScript (node:test), no dependencies.
 
 | Date | Language | Exercise |
 |---|---|---|
+| 2026-11-28 | TypeScript | [Rolling Hash (Rabin-Karp)](tasks/2026/2026-11-28-rolling-hash) |
+| 2026-11-28 | Python | [Chunking Helper Function](tasks/2026/2026-11-28-chunking-helper) |
+| 2026-11-28 | Python | [Backpressure-Aware Queue](tasks/2026/2026-11-28-backpressure-queue-2-2) |
 | 2026-11-27 | Python | [Tiny Expression Evaluator](tasks/2026/2026-11-27-tiny-expression-evaluator-2-2-2-2-2-2-2-2) |
 | 2026-11-27 | Python | [Retry Policy with Exponential Backoff](tasks/2026/2026-11-27-retry-policy-backoff-2-2-2-2) |
 | 2026-11-27 | TypeScript | [Pagination Helper](tasks/2026/2026-11-27-pagination-helper-2-2-2-2-2-2) |
