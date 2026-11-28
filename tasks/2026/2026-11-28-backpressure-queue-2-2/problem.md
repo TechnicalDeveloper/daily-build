@@ -1,0 +1,3 @@
+# Backpressure-Aware Queue
+
+Implement a thread-safe bounded queue that applies backpressure. The class `BackpressureQueue` must provide `put`, `get`, `put_nowait`, `get_nowait`, `qsize`, `empty`, and `full` methods. `put` and `get` support `block` and `timeout` parameters; when blocking, they wait until space/item is available or the timeout expires. If `block=False` or a timeout expires, they raise `queue.Full` (for `put`) or `queue.Empty` (for `get`). The queue must never exceed `maxsize` items. Respect these edge cases: negative timeout raises `ValueError`; `maxsize` must be positive; non-blocking operations do not wait; ordering is FIFO.
